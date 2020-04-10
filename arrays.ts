@@ -8,6 +8,7 @@ const car = carMakers[0];
 const myCar = carMakers.pop();
 
 // Prevent incompatible values
+// @ts-ignore
 carMakers.push(100);
 
 // Help with 'map'
